@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Greet:</b>
+  <%= @hello.greet %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @hello.language %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%= @hello.country %>
+</p>
+
+<p>
+  <b>Memo:</b>
+  <%= @hello.memo %>
+</p>
+
+
+<%= link_to 'Edit', edit_hello_path(@hello) %> |
+<%= link_to 'Back', hellos_path %>
